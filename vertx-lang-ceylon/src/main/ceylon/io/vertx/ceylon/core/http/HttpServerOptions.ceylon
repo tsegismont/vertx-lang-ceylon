@@ -73,7 +73,7 @@ shared class HttpServerOptions(
   JdkSSLEngineOptions? jdkSslEngineOptions = null,
   JksOptions? keyStoreOptions = null,
   Boolean? logActivity = null,
-  " Set the maximum HTTP chunk size\n"
+  " Set the maximum HTTP chunk size that [handler](../http/HttpServerRequest.type.html#handler) will receive\n"
   shared Integer? maxChunkSize = null,
   " Set the maximum length of all headers for HTTP/1.x .\n"
   shared Integer? maxHeaderSize = null,
